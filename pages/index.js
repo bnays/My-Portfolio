@@ -11,7 +11,7 @@ export default function Home() {
          enableURLDetection: true
       };`}
          </Script>
-         <Script id="show-banner">
+         <Script id="show-banner2">
             {`window.Appcues.identify(
   "213312", // unique, required
   {
