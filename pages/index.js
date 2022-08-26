@@ -11,6 +11,16 @@ export default function Home() {
          enableURLDetection: true
       };`}
          </Script>
+         <Script id="show-banner">
+            {`window.Appcues.identify(
+  "213312", // unique, required
+  {
+    role: "Admin", // Current user’s role or permissions
+    accountId: "1234", // Current user's account ID
+    firstName: "John", // current user's first name
+  }
+);`}
+         </Script>
          <script ></script>
          <Head>
             <title>Binay Maharjan - A Software Engineer</title>
