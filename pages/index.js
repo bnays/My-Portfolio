@@ -13,10 +13,10 @@ export default function Home() {
          </Script>
          <Script id="show-banner2">
             {`window.Appcues.identify(
-  "213312", // unique, required
+  "122182", // unique, required
   {
     role: "Admin", // Current user’s role or permissions
-    accountId: "1234", // Current user's account ID
+    accountId: "122182", // Current user's account ID
     firstName: "John", // current user's first name
   }
 );`}
